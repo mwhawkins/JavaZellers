@@ -1,6 +1,7 @@
 /**
  * Zeller's Congruence and a printable calendar
  * File: Zeller.java
+ * @author Michael Hawkins
  **/
  
 import java.util.Scanner;
