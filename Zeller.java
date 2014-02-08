@@ -77,7 +77,7 @@ public class Zeller{
      */
     public void printCalendar(int totalDaysInMonth, int year, int month){
         //print the month and year input by the user
-        System.out.println(monthsOfYear[month] + " " + Integer.toString(year));
+        System.out.println(monthsOfYear[month-1] + " " + Integer.toString(year));
         //print the calendar header calling our method above
         System.out.println(getCalendarHeader());
         //initialize our day of week and day of month variables
